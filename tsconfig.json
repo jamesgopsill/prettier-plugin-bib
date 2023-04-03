@@ -1,0 +1,16 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": [
+		"@tsconfig/node18",
+		"@tsconfig/strictest",
+		"@tsconfig/esm"
+	],
+	"include": ["src"],
+	"compilerOptions": {
+		"outDir": "dist/esm",
+		"rootDir": "src",
+		"declaration": true,
+		"newLine": "LF",
+		"verbatimModuleSyntax": false
+	}
+}
