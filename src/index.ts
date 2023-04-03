@@ -1,4 +1,4 @@
-import parser from "./parser.js"
+import * as parser from "bibtex-parse"
 import { print } from "./print.js"
 
 export const parse = parser.parse

@@ -10,6 +10,8 @@
 		"rootDir": "src",
 		"declaration": true,
 		"newLine": "LF",
-		"verbatimModuleSyntax": false
+		"verbatimModuleSyntax": false,
+		"checkJs": false,
+		"allowJs": true
 	}
 }

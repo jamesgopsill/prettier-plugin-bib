@@ -1,7 +1,7 @@
 import type { AstPath } from "prettier"
-import { doc } from "prettier"
+import prettier from "prettier"
 
-const { hardline } = doc.builders
+const { hardline } = prettier.doc.builders
 
 export const print = (
 	path: AstPath,
